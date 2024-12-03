@@ -37,14 +37,6 @@ Weiche Hsieh, Ziqian Bi, Chuanqi Jiang, Junyu Liu, Benji Peng, Sen Zhang, Xuanhe
 
 ---
 
-## Resources
-
-- **arXiv Paper**: [View on arXiv](https://arxiv.org/abs/2412.00800)
-- **DOI**: [10.48550/arXiv.2412.00800](https://doi.org/10.48550/arXiv.2412.00800)
-- **Python Examples**: Coming soon! Stay tuned for updates on our GitHub repository.
-
----
-
 ## Citation
 
 If you use this work in your research, please cite it as follows:

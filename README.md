@@ -3,6 +3,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![arXiv](https://img.shields.io/badge/arXiv-2412.00800-B31B1B.svg)](https://arxiv.org/abs/2412.00800)
 [![DOI](https://img.shields.io/badge/DOI-10.48550/arXiv.2412.00800-blue)](https://doi.org/10.48550/arXiv.2412.00800)
+[![OSFPreprint](https://img.shields.io/badge/OSFPreprint-wbk36-orange)](https://doi.org/10.31219/osf.io/wbk36)
 
 This repository contains the accompanying code and resources for the book **"A Comprehensive Guide to Explainable AI: From Classical Models to LLMs"**.
 

@@ -43,12 +43,16 @@ Weiche Hsieh, Ziqian Bi, Chuanqi Jiang, Junyu Liu, Benji Peng, Sen Zhang, Xuanhe
 If you use this work in your research, please cite it as follows:
 
 ```bibtex
-@misc{hsieh2024comprehensiveguideexplainableai,
-      title={A Comprehensive Guide to Explainable AI: From Classical Models to LLMs}, 
-      author={Weiche Hsieh and Ziqian Bi and Chuanqi Jiang and Junyu Liu and Benji Peng and Sen Zhang and Xuanhe Pan and Jiawei Xu and Jinlang Wang and Keyu Chen and Caitlyn Heqi Yin and Pohsun Feng and Yizhu Wen and Xinyuan Song and Tianyang Wang and Junjie Yang and Ming Li and Bowen Jing and Jintao Ren and Junhao Song and Han Xu and Hong-Ming Tseng and Yichao Zhang and Lawrence K. Q. Yan and Qian Niu and Silin Chen and Yunze Wang and Chia Xin Liang and Ming Liu},
-      year={2024},
-      eprint={2412.00800},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG},
-      url={https://arxiv.org/abs/2412.00800}, 
+@book{hsieh2024comprehensiveguideexplainableai,
+    title        = {A Comprehensive Guide to Explainable AI: From Classical Models to LLMs},
+    author       = {Weiche Hsieh and Ziqian Bi and Chuanqi Jiang and Junyu Liu and Benji Peng and Sen Zhang and Xuanhe Pan and Jiawei Xu and Jinlang Wang and Keyu Chen and Caitlyn Heqi Yin and Pohsun Feng and Yizhu Wen and Xinyuan Song and Tianyang Wang and Junjie Yang and Ming Li and Bowen Jing and Jintao Ren and Junhao Song and Han Xu and Hong-Ming Tseng and Yichao Zhang and Lawrence K. Q. Yan and Qian Niu and Silin Chen and Yunze Wang and Chia Xin Liang and Ming Liu},
+    year         = {2024},
+    publisher    = {arXiv},
+    address      = {Online},
+    url          = {https://arxiv.org/abs/2412.00800},
+    note         = {Preprint available on arXiv},
+    eprint       = {2412.00800},
+    archivePrefix= {arXiv},
+    primaryClass = {cs.LG}
 }
+```

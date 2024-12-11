@@ -33,7 +33,7 @@ Hands-on Python examples and additional resources are available in the companion
 ## Authors
 
 The book is co-authored by experts in AI and machine learning:
-Weiche Hsieh, Ziqian Bi, Chuanqi Jiang, Junyu Liu, Benji Peng, Sen Zhang, Xuanhe Pan, Jiawei Xu, Jinlang Wang, Keyu Chen, Caitlyn Heqi Yin, Pohsun Feng, Yizhu Wen, Xinyuan Song, Tianyang Wang, Junjie Yang, Ming Li, Bowen Jing, Jintao Ren, Junhao Song, Han Xu, Hong-Ming Tseng, Yichao Zhang, Lawrence K.Q. Yan, Qian Niu, Silin Chen, Yunze Wang, Chia Xin Liang, and Ming Liu.
+Weiche Hsieh, Ziqian Bi, Chuanqi Jiang, Junyu Liu, Benji Peng, Sen Zhang, Xuanhe Pan, Jiawei Xu, Jinlang Wang, Keyu Chen, Pohsun Feng, Yizhu Wen, Xinyuan Song, Tianyang Wang, Ming Liu, Junjie Yang, Ming Li, Bowen Jing, Jintao Ren, Junhao Song, Hong-Ming Tseng, Yichao Zhang, Lawrence K. Q. Yan, Qian Niu, Silin Chen, Yunze Wang, Chia Xin Liang.
 
 ---
 
@@ -43,15 +43,13 @@ If you use this work in your research, please cite it as follows:
 
 ```bibtex
 @book{hsieh2024comprehensiveguideexplainableai,
-    title        = {A Comprehensive Guide to Explainable AI: From Classical Models to LLMs},
-    author       = {Weiche Hsieh and Ziqian Bi and Chuanqi Jiang and Junyu Liu and Benji Peng and Sen Zhang and Xuanhe Pan and Jiawei Xu and Jinlang Wang and Keyu Chen and Caitlyn Heqi Yin and Pohsun Feng and Yizhu Wen and Xinyuan Song and Tianyang Wang and Junjie Yang and Ming Li and Bowen Jing and Jintao Ren and Junhao Song and Han Xu and Hong-Ming Tseng and Yichao Zhang and Lawrence K. Q. Yan and Qian Niu and Silin Chen and Yunze Wang and Chia Xin Liang and Ming Liu},
-    year         = {2024},
-    publisher    = {arXiv},
-    address      = {Online},
-    url          = {https://arxiv.org/abs/2412.00800},
-    note         = {Preprint available on arXiv},
-    eprint       = {2412.00800},
-    archivePrefix= {arXiv},
-    primaryClass = {cs.LG}
+    title={A Comprehensive Guide to Explainable AI: From Classical Models to LLMs},
+    author={Weiche Hsieh and Ziqian Bi and Chuanqi Jiang and Junyu Liu and Benji Peng and Sen Zhang and Xuanhe Pan and Jiawei Xu and Jinlang Wang and Keyu Chen and Pohsun Feng and Yizhu Wen and Xinyuan Song and Tianyang Wang and Ming Liu and Junjie Yang and Ming Li and Bowen Jing and Jintao Ren and Junhao Song and Hong-Ming Tseng and Yichao Zhang and Lawrence K. Q. Yan and Qian Niu and Silin Chen and Yunze Wang and Chia Xin Liang},
+    year={2024},
+    publisher={arXiv},
+    eprint={2412.00800},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2412.00800}
 }
 ```

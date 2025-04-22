@@ -1,8 +1,8 @@
 import numpy as np
 import pandas as pd
-from causality.inference.search import ICAlgorithm
+from causality.inference.search import IC
 from causality.estimation.adjustments import AdjustForDirectCauses
-from causality.estimation.nonparametric import CausalEffect
+from dowhy import CausalModel
 
 # Define the structural equations
 np.random.seed(42)
@@ -16,9 +16,21 @@ Y = 0.3 * M + 0.2 * X + U_Y
 # Create a DataFrame
 data = pd.DataFrame({'X': X, 'M': M, 'Y': Y})
 
-# Estimate the causal effect of X on Y using SCM
-adjuster = AdjustForDirectCauses()
-causal_effect_estimator = CausalEffect()
-effect = causal_effect_estimator.estimate(data, 'X', 'Y', adjust_for=['M'])
+# Define a CausalModel using DoWhy
+model = CausalModel(
+    data=data,
+    treatment='X',
+    outcome='Y',
+    common_causes=['M']
+)
 
-print(f"Estimated causal effect of X on Y: {effect:.4f}")
+# Identify the causal effect
+identified_estimand = model.identify_effect()
+
+# Estimate the causal effect
+estimate = model.estimate_effect(
+    identified_estimand,
+    method_name="backdoor.linear_regression"
+)
+
+print(f"Estimated causal effect of X on Y: {estimate.value:.4f}")

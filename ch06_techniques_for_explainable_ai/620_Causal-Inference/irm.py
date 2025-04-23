@@ -41,10 +41,10 @@ def irm_penalty(loss, features, tape):
 
 # Compile the model
 model = IRMModel()
-optimizer = tf.keras.optimizers.Adam()
+optimizer = tf.keras.optimizers.Adam(learning_rate=0.001)
 
 # Training loop
-for epoch in range(1000):
+for epoch in range(5000):
     with tf.GradientTape(persistent=True) as tape:
         # Process Environment 1
         pred_env1, features_env1 = model(X_env1)
